@@ -82,6 +82,12 @@ let s:filetypeCommentDelimiters = {
     \},
     \'sh': {
         \'singlelineStart': '# '
+    \},
+    \'c': {
+        \'singlelineStart': '// '
+    \},
+    \'cpp': {
+        \'singlelineStart': '// '
     \}
 \}
 
